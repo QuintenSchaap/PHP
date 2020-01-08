@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulier Op2</title>
+    <style>
+        .rainbow {
+            text-align: center;
+            font-size: 50px;
+            font-family: monospace;
+            letter-spacing: 10px;
+            animation: colorRotate 5s linear 0s infinite;
+        }
+
+        @keyframes colorRotate {
+            from {
+                color: #6666ff;
+            }
+            10% {
+                color: #0099ff;
+            }
+            50% {
+                color: #00ff00;
+            }
+            75% {
+                color: #ff3399;
+            }
+            100% {
+                color: #6666ff;
+            }
+        }
+    </style>
+</head>
+<body>
+<h1 class="rainbow">Pick a Color</h1>
+<form action="H5Op2.php" method="post">
+    <select name="kleuren[]" multiple>
+        <option value="afbeelding1">Zwart</option>
+        <option value="afbeelding2">Rood</option>
+        <option value="afbeelding3">Geel</option>
+        <option value="afbeelding4">Blauw</option>
+        <option value="afbeelding5">Groen</option>
+        <option value="afbeelding6">Roze</option>
+        <option value="afbeelding7">Paars</option>
+        <option value="afbeelding8">Oranje</option>
+        <option value="afbeelding9">Bruin</option>
+    </select>
+    <input type="submit" name="knop">
+</form>
+</body>
+</html>
