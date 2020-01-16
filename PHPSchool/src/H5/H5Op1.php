@@ -2,7 +2,7 @@
 
 if($_POST['voornaam'] == "") {
     echo "Je moet jouw Voornaam nog invoeren!";
-    echo "<br><a href=\"H5Op1.html\">Terug naar het formulier</a><br><br>";
+    echo ">Terug naar het formulier</a><br><br>";
 };
 
 if($_POST['adres'] == "") {
